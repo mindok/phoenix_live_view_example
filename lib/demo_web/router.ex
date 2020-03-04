@@ -39,6 +39,7 @@ defmodule DemoWeb.Router do
     get "/snake", PageController, :snake
     live "/search", SearchLive
     live "/clock", ClockLive
+    live "/clickme", ClickMeLive
     live "/image", ImageLive
     live "/pacman", PacmanLive
     live "/rainbow", RainbowLive
